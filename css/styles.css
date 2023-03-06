@@ -116,8 +116,11 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/hero/bg.jpg");
-  background-size: cover;
   background-color: rgba(46, 47, 66, 0.7);
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -262,7 +265,7 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 24px;
 }
 .social-page {
   display: flex;
@@ -288,6 +291,7 @@ body {
 }
 
 /* Customers */
+
 .customers {
   padding-top: 130px;
 }
@@ -308,25 +312,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 .customers-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #8e8f99;
-
   fill: currentColor;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 .customers-icon:hover,
 .customers-icon:focus {
   color: #404bbf;
-}
-.customers-item:hover,
-.customers-item:focus {
   border: 1px solid #404bbf;
 }
 
@@ -386,7 +386,7 @@ body {
 .social-footer {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-item {
   display: flex;
@@ -449,7 +449,6 @@ body {
 }
 .portfolio-card:hover,
 .portfolio-card:focus {
-  border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
